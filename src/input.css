@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge {
+ @apply text-sm font-medium text-slate-200 absolute bg-slate-500 py-1 px-2 rounded-full right-0 m-4 cursor-pointer
+}
+
+.card {
+ @apply relative flex flex-col items-center overflow-hidden rounded-2xl bg-slate-200 shadow-md
+}
+
+.hide {
+ @apply hidden
+}
